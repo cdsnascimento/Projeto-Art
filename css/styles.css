@@ -15,6 +15,14 @@ a, i{
   text-decoration: none;
 }
 
+.primary-color {
+  color: var(--primary-color)
+}
+
+.secondary-color {
+  color: var(--secondary-color)
+}
+
 .center-image {
   background-size: cover;
   background-position: center;
@@ -72,6 +80,22 @@ a, i{
   color: #C1B696;
 }
 
+/* MAIN IMAGE */
+
+.main-image {
+  height: 400px;
+  background-image: url('../img/g_1.jpg');
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.main-image-info {
+  background-color: #FFF;
+  padding: 25px;
+  position: absolute;
+  left: 25px;
+  bottom: 25px;
+}
 
 
 
